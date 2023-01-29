@@ -2,7 +2,7 @@ body{
     font-family: Arial, Verdana;
     background-color: black;
     color :#ffffff;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 0 20px;
 }
 
 h1{
@@ -25,8 +25,7 @@ p{
 img{
     width: 250px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 body div{
@@ -37,56 +36,57 @@ body div{
     border-width: 3px 3px 3px 3px;
 }
 
-div.introduction{
+.introduction{
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
 
-div.red{
+.red{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
     border-style: solid;
-    border-right: 5px;
-    border-top: 2px;
+    border-left: 5px;
+    border-bottom: 2px;
 }
 
-div.blue{
+.blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
     border-style: solid;
-    border-left: 5px;
-    border-bottom: 2px;
+    border-right: 5px;
+    border-top: 2px;
 }
 /* sp addings the comma means AND. if you leave out the comma, its askign to focus on one thing with all those selection criteris - one elemnt that fits all 3 cireteria.  */
-div.blue h2 {
+.blue h2 {
     color: #C4C4C4;
 }
 
-div.blue p{
+.blue p{
     color: #C4C4C4;
 }
 
-div.yellow{
+.yellow{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
     border-style: solid;
-    border-top: 2px;
-    border-right: 5px;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 
-div.yellow p{
+.yellow p{
     color: #707070;
 }
 
-div.green{
+.green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-right: 5px;
+    border-top: 2px;
 }
 
 footer{
