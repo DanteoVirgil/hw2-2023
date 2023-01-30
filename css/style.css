@@ -53,9 +53,7 @@ body div{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-style: solid;
-    border-right: 5px;
-    border-top: 2px;
+    border-width: 2px 5px 0px 0px ;
 }
 /* sp addings the comma means AND. if you leave out the comma, its askign to focus on one thing with all those selection criteris - one elemnt that fits all 3 cireteria.  */
 .blue h2 {
@@ -70,9 +68,7 @@ body div{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-style: solid;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-width: 0px 0px 5px 2px ;
 }
 
 .yellow p{
@@ -83,8 +79,7 @@ body div{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-width: 2px 5px 0px 0px ;
 }
 
 footer{
@@ -93,8 +88,8 @@ footer{
     border: 5px solid white ;
 }
 
-footer p {
+footer {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15px 15px 0px;    
+    padding: 15px 15px 15px 0px;
 }
