@@ -26,6 +26,7 @@ img{
     width: 250px;
     display: block;
     margin: auto;
+    border: 10px dashed; 
 }
 
 body div{
